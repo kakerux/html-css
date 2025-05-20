@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.jf" method="post">
+
+        <label for="dob">select dob</label>
+        <input type="date" name="" id="dob">
+        <br>
+        <br>
+
+        <label for="age">Enter age</label>
+        <input type="number" name="" id="age" placeholder="age">
+        <br><br>
+
+        <label for="eligible">Are you eligible</label>
+        <input type="checkbox" name="" id="eligible">
+        <br><br>
+
+        <label for="hobby">select hobbies:</label>
+        Dance
+        <input type="checkbox" name="" id="" value="dance">
+        Singing
+        <input type="checkbox" name="" id="" value="singing">
+        Sports
+        <input type="checkbox" name="" id="" value="sports">
+        <br><br>
+
+        <label for="Gender">Select gender</label>
+        Male
+       <input type="radio" name="gender" id="" value="male">
+       Female
+       <input type="radio" name="gender" id="" value="female">
+       Other
+       <input type="radio" name="gender" id="" value="other">
+       <br><br>
+
+     <label for="msg">message</label> <br>
+     <textarea name="" id="msg" cols="30" rows="10"></textarea>
+     <br><br>
+
+     <label for="course">select course</label>
+     <select name="" id="course">
+ 
+       <option value="frontend" selected>frontend</option>
+       <option value="backend">backend</option>
+       <option value="fullstack">fullstack</option>
+
+     </select>
+     <br><br>
+
+     <label for="vehicle">select car</label>
+     <input type="text" name="" id="vehicle" list="cars">
+     <datalist id="cars">
+        <option value="bmw"></option>
+         <option value="bolero"></option>
+         <option value="lamborgini"></option>
+        <option value="macleren"></option>
+        <option value="bugatti"></option>
+        <option value="tesla"></option>
+
+     </datalist>
+     <br><br>
+
+     <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </form>
+</html>
