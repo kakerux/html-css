@@ -1,0 +1,43 @@
+/* universal selector */
+*{
+    font-style:italic;
+}
+
+
+h2 {
+    color:rgb(148, 47, 10);
+    background-color:aqua;
+}
+p{
+    color: white;
+    background-color: blue;
+}
+
+p1{
+    color: blueviolet;
+    background-color: black;
+
+}
+
+
+/* id selecter */
+#mypara {
+    color:green;
+    background-color: brown;
+}
+
+/* class selector */
+.common {
+    color: blue;
+    background-color: aqua;
+
+}
+
+/* nested selector */
+.nested div h3 {
+    background-color: gold;
+}
+
+.hero .navbar .mynav li a{
+    color: olive;
+}

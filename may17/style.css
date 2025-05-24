@@ -1,0 +1,61 @@
+.hero nav ul li a{
+    color: black;
+    background-color: red;
+}
+
+/* heading */
+#home div h1{
+    color: blue;
+}
+
+#qualifications div h1{
+    color: blue;
+}
+#skills div h1{
+    color: blue;
+}
+#hobbies div h1{
+    color: blue;
+}
+#achivements div h1{
+    color: blue;
+}
+#contactme div h1{
+    color: blue;
+}
+
+
+/* uske andar ka content */
+#home div p{
+    background-color: yellow;
+    display: inline-block;
+}
+
+#qualifications div p{
+   background-color: yellow;
+}
+
+
+#skills div p{
+   background-color: yellow;
+}
+
+#hobbies div p{
+   background-color: yellow;
+}
+
+#achivements div p{
+   background-color: yellow;
+}
+
+#contactme div p{
+   background-color: yellow;
+}
+
+.email-label{
+    color: red;
+}
+
+
+
+
