@@ -53,3 +53,11 @@ p{
     text-align: justify;
     letter-spacing: 10px;
 }
+
+
+/* display: flex;            Lay out list items in a row */
+
+
+/* div a:hover{                 to make any text change color when cursur placed on it
+    color: red;
+} */

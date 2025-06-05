@@ -1,27 +1,56 @@
 .hero nav ul li a{
     color: black;
-    background-color: red;
+    background-color: #ff0000;
+    letter-spacing: 6px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    
+    
 }
 
 /* heading */
 #home div h1{
     color: blue;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
+    display: inline;
 }
 
 #qualifications div h1{
     color: blue;
+    text-align: right;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
 }
+
 #skills div h1{
     color: blue;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
 }
 #hobbies div h1{
     color: blue;
+    text-align: right;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
 }
 #achivements div h1{
     color: blue;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
 }
 #contactme div h1{
     color: blue;
+    text-align: right;
+    letter-spacing: 10px;
+    border: 2px dotted red;
+    border-radius: 40px;
 }
 
 
@@ -29,33 +58,82 @@
 #home div p{
     background-color: yellow;
     display: inline-block;
+    font-family: cursive;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    border:4px dashed #ff0000;
+    border-radius: 30px;
+    
 }
 
 #qualifications div p{
    background-color: yellow;
+   text-align: right;
+   font-family: cursive;
+   word-spacing: 10px;
+   text-transform: capitalize;
+   border:4px dashed #ff0000;
+    border-radius: 30px;
 }
 
 
 #skills div p{
    background-color: yellow;
+   font-family: cursive;
+   word-spacing: 10px;
+   text-transform: capitalize;
+   border:4px dashed #ff0000;
+    border-radius: 30px;
 }
 
 #hobbies div p{
    background-color: yellow;
+   text-align: right;
+   font-family: cursive;
+   word-spacing: 10px;
+   text-transform: capitalize;
+   border:4px dashed #ff0000;
+    border-radius: 30px;
 }
 
 #achivements div p{
    background-color: yellow;
+   font-family: cursive;
+   word-spacing: 10px;
+   text-transform: capitalize;
+   border:4px dashed #ff0000;
+    border-radius: 30px;
 }
 
 #contactme div p{
    background-color: yellow;
+   text-align: right;
+   font-family: cursive;
+   word-spacing: 10px;
+   text-transform: capitalize;
+   border:4px dashed #ff0000;
+    border-radius: 30px;
 }
 
 .email-label{
     color: red;
+    font-family: cursive;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    border:4px dashed #ff0000;
+    border-radius: 30px;
+   
 }
 
+div a{
+    color: blue;
+    text-decoration: none;
+
+    
+}
+div a:hover{
+    color: #ff0000;
+}
 
 
 

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* do margin and padding as 0  */
+    box-sizing: border-box;
+    /* it does not make box more big and fit it into 100x100 px */
+
+}
+
+
+
+.box{
+/* width: 100px; */
+height: 100px;
+background-color: yellow;
+border: 5px solid red;
+/* all sides */
+/* padding: 10px; */
+/* top.bottom left.right */
+/* padding: 20px 40px; */
+/* padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 40px;
+padding-right: 4px; */
+/* shorthand top.right.bottom.left*/
+padding: 10px 20px 30px 40px;
+
+
+
+/* margins */
+margin: 20px;
+/* margin is applied as same as padding like margin-top/bottom */
+}
+
+
+.box1{
+width: 100px; 
+height: 100px;
+border-style: solid;
+border-color:rgb(0, 153, 255) ;
+
+}

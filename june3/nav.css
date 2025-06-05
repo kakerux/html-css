@@ -1,0 +1,42 @@
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.navbar label{
+    display: none;
+}
+
+#click{
+    display: none;
+
+}
+#click:checked~.navbar ul{
+    display: block;
+}
+
+@media screen and (max-width:650) {
+    .navbar label{
+        display:block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color: lightblue;
+        width: 100%;
+    }
+    .navbar ul li{
+        padding: 10px;
+    }
+}
+
+
+/* akhir main add flex wrap only  */
+
