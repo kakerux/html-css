@@ -35,8 +35,7 @@ header nav{
     left: 0;
     width: 100%;
     background-color: white;
-    z-index: 2;
-    
+    z-index: 2;    
 }
 
 header nav ul{
@@ -68,9 +67,49 @@ header nav h1{
 header nav h1 span{
     font-weight: 500;
 }
-/* nav{
-    position: fixed;
-} */
+
+
+
+/* nav query */
+nav label{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~header nav ul{
+    display: block!important;
+}
+
+@media screen and (max-width: 650px) {
+    nav label{
+        display:block;
+        margin-right: 10px;
+    }
+    nav ul{
+        display: none!important;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        top: 50px;
+        /* flex-wrap: wrap; */
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 250px;
+        
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    
+}
+
+
+
+/* image 1 */
 .img1{
     background-image: url(/website/architect.jpg);
     width: 100%;
@@ -247,31 +286,29 @@ header nav h1 span{
 
 .project .images{
     display: grid;
+    /* flex-wrap: wrap; */
     grid-template-columns: auto auto auto auto;
-    /* width: 100%; */
     gap: 100px;
     margin-top: 30px;  
     margin-left: 60px; 
 }
 
-
-
-/* horizonal scroll */
-/* html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+@media screen and (min-width:600px) and (max-width:750px) {
+    .project .images{
+        grid-template-columns: auto auto;
+    }
+    body{
+        background-color: red;
+    }
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+@media screen and (max-width:599px) {
+     .project .images{
+      grid-template-columns: auto;
+    }
 }
 
-img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-} */
+
 
 .sec{
     padding: 10px;
@@ -297,6 +334,7 @@ img, video {
 
 .images2{
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: auto auto auto auto ;
     width: 100%;
     height: 100%;
@@ -304,6 +342,21 @@ img, video {
     /* margin: 20px; */
     padding: 10px;
     filter: grayscale(80%);
+}
+
+@media screen and (min-width:600px) and (max-width:750px) {
+    .images2{
+        grid-template-columns: auto auto;
+    }
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:599px) {
+     .images2{
+        grid-template-columns: auto;
+    }
 }
 
 
