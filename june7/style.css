@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav h1{
+    color: white;
+    margin-left: 20px;
+}
+ body {
+  margin: 0;
+  background: blue;
+  color: ;
+}
+
+.class {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  width: 55%;
+}
+
+.class h1 {
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.class .hero p{
+    color: white;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.class ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+
+
+.right-section {
+  background: blue;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 60%;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: yellow;
+  color: black;
+  padding: 20px 25px;
+  border-radius: 40%;
+}
+
+
+
+
+
+
+
+
+
